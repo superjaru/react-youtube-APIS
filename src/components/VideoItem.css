@@ -1,0 +1,21 @@
+.video-item {
+  padding: 0 !important;
+  cursor: pointer;
+  max-width: 402px;
+  max-height: 94px;
+  box-sizing: border-box !important;
+}
+.video-item img {
+  max-width: 168px;
+  max-height: inherit;
+}
+
+.detail-wrapper {
+}
+#video-title-wrapper {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
